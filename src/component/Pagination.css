@@ -1,0 +1,27 @@
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.pagination button {
+    width: 35px; /* Adjust the width and height as needed */
+    height: 35px;
+    border-radius: 50%; /* Makes the button circular */
+    background-color: rgb(181, 173, 230); /* Your desired button color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination button.active {
+    font-weight: 300;
+    border-color: #101010;
+    background: rgb(0, 255, 123);
+    color: #101010;
+}
